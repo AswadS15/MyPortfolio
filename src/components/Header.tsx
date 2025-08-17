@@ -13,7 +13,7 @@ export default function Header() {
           {/* Navigation */}
           <nav className="flex items-center gap-6 sm:gap-10 lg:gap-16">
             {/* Menu links - hidden on small screens */}
-            <div className="hidden md:hidden items-center gap-6 lg:gap-10 font-semibold">
+            <div className="hidden lg:flex items-center gap-6 lg:gap-10 font-semibold">
               <a
                 href="#"
                 className="text-base sm:text-lg lg:text-xl hover:text-[#A6B28B] transition"
@@ -35,10 +35,8 @@ export default function Header() {
             </div>
 
             {/* Button */}
-            <button className="px-3 sm:px-4 py-2 rounded-xl border-2 text-[#1C352D] hover:bg-[#1C352D] hover:text-[#A6B28B] transition-all">
-              <span className="text-sm sm:text-base font-semibold">
-                Mulai Aplikasi
-              </span>
+            <button className="px-4 py-2 rounded-full border-2  text-primary hover:bg-[#1C352D] hover:text-[#A6B28B] transition-all">
+              <span className="text-xs font-bold">Mulai Aplikasi</span>
             </button>
           </nav>
         </div>
