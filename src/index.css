@@ -3,6 +3,7 @@
 
 @theme {
   --color-primary: #1c352d;
+  --color-secondary: #a6b28b;
 }
 body {
   font-family: "Courier New", Courier, monospace;
