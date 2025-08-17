@@ -2,9 +2,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #1c352d;
-  --color-secondary: #a6b28b;
+  --color-primary: #f9f6f3;
+  --color-secondary: #17313e;
 }
 body {
   font-family: "Courier New", Courier, monospace;
+}
+/* Dark mode */
+.dark {
+  --color-primary: #17313e; /* contoh warna gelap */
+  --color-secondary: #f9f6f3; /* contoh warna hijau terang */
 }
